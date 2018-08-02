@@ -7,7 +7,7 @@ AWS.config.update({region: 'us-east-2'});
 
 var params = {
  Bucket: "zashi",
- Key: "test2.jpg"
+ Key: "test.jpg"
 };
 var v = fs.readFileSync("/Users/systems/Desktop/kawaii.jpg");
 params.Body = v;
